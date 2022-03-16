@@ -6,6 +6,10 @@ body {
     position: relative;
 }
 
+.img {
+    padding-right: 3px;
+}
+
 /*
     Box sconti 
 */
@@ -39,6 +43,10 @@ body {
     position: absolute;
     text-align: center;
 }
+
+/*
+    Cuore
+*/
 
 .heart {
     left: 150px;
@@ -88,9 +96,9 @@ body {
     opacity: 0;
 }
 
-.img {
-    padding-right: 3px;
-}
+/*
+    Popup su img con cuore
+*/
 
 .container:hover .heart {
   visibility: visible;
