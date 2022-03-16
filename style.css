@@ -33,6 +33,12 @@
     bottom: 380px;
     color: red;
     position: absolute;
+    opacity: 0;
+}
+
+.container:hover .heart {
+  visibility: visible;
+  opacity: 1;
 }
 
 
