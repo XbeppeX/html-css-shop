@@ -1,7 +1,11 @@
+body {
+    position: relative;
+}
+
 .red-rectangle {
     height: 25px;
     width: 50px;
-    left: 561px;
+    left: 552px;
     font-size: large;
     background-color: red;
     position: absolute;
@@ -11,7 +15,7 @@
 .green-rectangle {
     height: 25px;
     width: 50px;
-    left: 258px;
+    left: 250px;
     font-size: large;
     background-color: green;
     position: absolute;
@@ -21,7 +25,7 @@
 .green-rectangle2 {
     height: 25px;
     width: 50px;
-    left: 865px;
+    left: 855px;
     font-size: large;
     background-color: green;
     position: absolute;
@@ -30,7 +34,7 @@
 
 .heart {
     left: 150px;
-    bottom: 380px;
+    bottom: 435px;
     color: red;
     position: absolute;
     opacity: 0;
@@ -38,7 +42,7 @@
 
 .heartb {
     left: 450px;
-    bottom: 380px;
+    bottom: 435px;
     color: red;
     position: absolute;
     opacity: 0;
@@ -46,7 +50,31 @@
 
 .heartc {
     left: 750px;
-    bottom: 380px;
+    bottom: 435px;
+    color: red;
+    position: absolute;
+    opacity: 0;
+}
+
+.heartd {
+    left: 150px;
+    bottom: 20px;
+    color: red;
+    position: absolute;
+    opacity: 0;
+}
+
+.hearte {
+    left: 450px;
+    bottom: 20px;
+    color: red;
+    position: absolute;
+    opacity: 0;
+}
+
+.heartf {
+    left: 750px;
+    bottom: 20px;
     color: red;
     position: absolute;
     opacity: 0;
@@ -67,6 +95,21 @@
 }
 
 .container:hover .heartc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container:hover .heartd {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container:hover .hearte {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container:hover .heartf {
   visibility: visible;
   opacity: 1;
 }
