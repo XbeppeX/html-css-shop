@@ -36,11 +36,37 @@
     opacity: 0;
 }
 
+.heartb {
+    left: 450px;
+    bottom: 380px;
+    color: red;
+    position: absolute;
+    opacity: 0;
+}
+
+.heartc {
+    left: 750px;
+    bottom: 380px;
+    color: red;
+    position: absolute;
+    opacity: 0;
+}
+
 .img {
     padding-right: 3px;
 }
 
-.container1:hover .heart {
+.container:hover .heart {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container:hover .heartb {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container:hover .heartc {
   visibility: visible;
   opacity: 1;
 }
