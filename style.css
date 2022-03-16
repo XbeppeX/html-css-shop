@@ -28,4 +28,12 @@
     text-align: center;
 }
 
+.heart {
+    left: 150px;
+    bottom: 380px;
+    color: red;
+    position: absolute;
+}
+
+
 
