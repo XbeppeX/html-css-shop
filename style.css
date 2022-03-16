@@ -1,0 +1,7 @@
+.red-rectangle {
+    height: 30px;
+    width: 50px;
+    left: 258px;
+    background-color: red;
+    position: absolute;
+}
