@@ -1,7 +1,31 @@
 .red-rectangle {
-    height: 30px;
+    height: 25px;
     width: 50px;
-    left: 258px;
+    left: 561px;
+    font-size: large;
     background-color: red;
     position: absolute;
+    text-align: center;
 }
+
+.green-rectangle {
+    height: 25px;
+    width: 50px;
+    left: 258px;
+    font-size: large;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+}
+
+.green-rectangle2 {
+    height: 25px;
+    width: 50px;
+    left: 865px;
+    font-size: large;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+}
+
+
