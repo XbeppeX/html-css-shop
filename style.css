@@ -36,9 +36,17 @@
     opacity: 0;
 }
 
-.container:hover .heart {
+.img {
+    padding-right: 3px;
+}
+
+.container1:hover .heart {
   visibility: visible;
   opacity: 1;
+}
+
+.container-general {
+    display: flex;
 }
 
 
