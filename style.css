@@ -1,6 +1,12 @@
+/*
+    Codice CSS da ottimizzare e minimalizzare
+*/
+
 body {
     position: relative;
 }
+
+
 
 .red-rectangle {
     height: 25px;
